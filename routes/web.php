@@ -44,3 +44,5 @@ Route::controller(UserController::class)->group(function() {
     Route::get('/{user_name}/profile', 'editProfile')->name('profile.edit');
     Route::put('/user/{id}', 'updateProfile')->name('profile.update');
 });
+
+
